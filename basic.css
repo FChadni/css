@@ -1,0 +1,84 @@
+/* CSS Selectors
+    * Element ~
+    * :id ~ highest value
+    * class ~ higher value
+*/
+p{
+    color: green;
+}
+#p3{
+    color: red;
+}
+.blue-text{
+    color: blue;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~ CSS Selectors Ends ~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* COLORS
+    * Predefined color names (140) ~ https://htmlcolorcodes.com/color-names/
+    * RGB (Red, Green, Blue) 0 to 255 ~ black (rgb(0,0,0)), white(rgb(255,255,255))
+    * RGBA (Red, Green, Blue, alpha) 0.0 to 1.0 ~ used for transparency rgba(0,0,0,0.5)
+    * HEX #rrggbb 00 to ff ~ red (#ff0000), black(#000000), white(#ffffff)
+    * HSL (hue, saturation, lightness) ~ red(hsl(0,100%,50%)
+    * HSLA (hue, saturation, lightness, alpha) ~ used for transparency red(hsla(0,100%,50%,0.5)
+*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~ COLORS ENDS ~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* BACKGROUND
+    * Background color
+    * Background image
+*/
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 50px;
+}
+.background-color{
+    background-color: powderblue;
+}
+.background-image{
+    background-image: url("https://pa1.narvii.com/7436/d2a5fced86de7678ef06a615f3404e2da0ee6169r1-500-500_hq.gif");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+    /*background-attachment: scroll;*/
+}
+.background-color-image{
+    background-color: powderblue;
+    background-image: url("https://pa1.narvii.com/7436/d2a5fced86de7678ef06a615f3404e2da0ee6169r1-500-500_hq.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~ BACKGROUND ENDS ~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* BORDER, HEIGHT, WIDTH, PADDING, MARGIN
+    * top right bottom left
+    * shorthand ~ width style color
+*/
+.background-color, .background-image, .background-color-image{
+    border: solid;
+    border-width: 5px;
+    border-color: red blue green yellow;
+    height: 400px;
+    width: 70%;
+    padding: 25px;
+    margin: 5px;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~ BORDER ENDS ~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* BOX MODEL
+    * Margin
+    * Border
+    * padding
+    * content (height and width)
+*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~ BOX MODEL ENDS ~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* TEXT
+    * Margin
+    * Border
+    * padding
+    * content (height and width)
+*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~ TEXT ENDS ~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
